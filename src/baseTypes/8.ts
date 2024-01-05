@@ -1,8 +1,6 @@
-/*
-  Створіть тип "Gender", використовуючи union type, 
-  який може містити значення "male", "female". Створіть змінну myGender цього типу.
-*/
+type Gender = "male" | "female";
 
-const myGender;
+// const elephantGender: Gender = "non-binary-elephant";
+const myGender: Gender = "male";
 
-export {};
+export { myGender };
